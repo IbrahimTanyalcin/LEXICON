@@ -1,23 +1,20 @@
 # Lexicon
 ----
-<br></br>
 <img alt = "LeXiCoN" src="./lexiconLogo.png" style="margin:auto;width:35%"></img>
-<br></br>
+><br></br>
 >**Breya**: Why are all these metal... things... ignoring us?  
 >**Roots**: Anavchnzel is waiting.  
+
 <br></br>
 <br></br>  
-
 &nbsp;&nbsp;Lexicon is a collection of high level javascript libraries to create interactive and synchronizable graphs and dashboards. I will be soon uploading the scripts and documentation. 
 
 &nbsp;&nbsp;If you want to see what it can do, have a look at the [mutaframe][mutaframe] website.  
 
 &nbsp;&nbsp;If you want to follow updates you can do it from [here][myTwitter] and [here][mutaframeTwitter].  
-<br></br>
 <br></br>  
 
 ## Coming Soon...
-<br></br>
 <br></br>  
 
 Lisence
