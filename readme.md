@@ -1,6 +1,6 @@
 # Lexicon
 ----
-<img alt = "LeXiCoN" src="./lexiconLogo.png" style="margin:auto"></img>
+<img alt = "LeXiCoN" src="./lexiconLogo.png" style="margin:auto;width:35%"></img>
 
 >**Breya**: Why are all these metal... things... ignoring us?
 >**Roots**: Anavchnzel is waiting.
