@@ -2,8 +2,8 @@
 ----
 <img alt = "LeXiCoN" src="./lexiconLogo.png" style="margin:auto;width:35%"></img>
 <br></br>
->**Breya**: Why are all these metal... things... ignoring us?  
->**Roots**: Anavchnzel is waiting.  
+>* **Breya**: Why are all these metal... things... ignoring us?*  
+>* **Roots**: Anavchnzel is waiting.*  
 
 <br></br>
  
