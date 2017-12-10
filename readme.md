@@ -14,12 +14,18 @@ LEXICON is a collection of high level javascript libraries to create interactive
 
 ## The Story
 
-About a year ago I had 
-
-
-
+>About a year ago I started working on the [Mutaframe][MUTAFRAME] project where we developed a data-visualization platform for all variants of the Human Genome:
+- more then 30 000 proteins
+- approximately 8000 points mutations for each protein
+>We tried concepts that has not been tried in bioinformatics such as:
+- dedicated visualizations for submitting mutations for medical doctors & researchers
+- displaying all variants at once from a protein and looking at AUC
+- JS visualization components that can be synchronized with each other (I am not talking about a chart update, neither plain transform of one g group/svg with some gesture.)
+>To be able to do these, I needed components that can exactly do what I want. So I wrote a whole library of components from scratch using vanilla JS and D3:
+- If you want to have an idea of whats going on take a look at my recent talk at ECCB2017[ECCB2017]
 - If you want to see what it can do, have a look at the [mutaframe][mutaframe] website.  
 - If you want to follow updates you can do it from [here][myTwitter] and [here][mutaframeTwitter].  
+>
 
 ## Coming Soon...
 <br></br>  
@@ -30,9 +36,7 @@ About a year ago I had
 Lisenced under [*GPL*](./LISENCE.md) for Academic or Non-profit use only. It is dual licensed for commercial applications.
 Certain components have registered IP property rights, contact me if you have questions.
 
-   [mutaframe]: <http://deogen2.mutaframe.com/>
-   [myTwitter]: <https://twitter.com/ibrhmTanyalcin>
-   [mutaframeTwitter]: <https://twitter.com/MutaFrame>
+  
  
 ## Acknowledgement
 ----
@@ -61,3 +65,7 @@ support for this project you can contribute to my [PATREON](https://www.patreon.
 [MUTAFRAME]: http://deogen2.mutaframe.com/
 [PROGRAMMATIC]: http://bl.ocks.org/ibrahimtanyalcin/f2067bef081d84b85e3fb077f3272a90
 [PROTEIN]:http://bl.ocks.org/ibrahimtanyalcin/37c3e06f97cda2881acbfcbb4d77e3ab
+[mutaframe]: <http://deogen2.mutaframe.com/>
+[myTwitter]: <https://twitter.com/ibrhmTanyalcin>
+[mutaframeTwitter]: <https://twitter.com/MutaFrame>
+[ECCB2017]: https://www.youtube.com/watch?v=9UGcxoZ0l2o
