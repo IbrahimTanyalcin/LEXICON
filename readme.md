@@ -22,11 +22,18 @@ LEXICON is a collection of high level javascript libraries to create interactive
 - displaying all variants at once from a protein and looking at AUC
 - JS visualization components that can be synchronized with each other (I am not talking about a chart update, neither plain transform of one g group/svg with some gesture.)
 >To be able to do these, I needed components that can exactly do what I want. So I wrote a whole library of components from scratch using vanilla JS and D3:
-- If you want to have an idea of whats going on take a look at my recent talk at ECCB2017[ECCB2017]
+- If you want to have an idea of whats going on take a look at my recent talk at [ECCB2017][ECCB2017]
 - If you want to see what it can do, have a look at the [mutaframe][mutaframe] website.  
 - If you want to follow updates you can do it from [here][myTwitter] and [here][mutaframeTwitter].  
->
-
+>There are currently 8 libraries (components or whatever you want to call them). Each has or will have their own repository & Gists:
+- lexicon-rainbow ([Github][RAINBOW])
+  - [Gist1][RAINBOW_G1]
+  - [Gist2][RAINBOW_G2]
+  - [Gist3][RAINBOW_G3]
+  - [Gist4][RAINBOW_G4]
+  - [Gist5][RAINBOW_G5]
+  - [Gist6][RAINBOW_G6]
+- 
 ## Coming Soon...
 <br></br>  
 
@@ -69,3 +76,10 @@ support for this project you can contribute to my [PATREON](https://www.patreon.
 [myTwitter]: <https://twitter.com/ibrhmTanyalcin>
 [mutaframeTwitter]: <https://twitter.com/MutaFrame>
 [ECCB2017]: https://www.youtube.com/watch?v=9UGcxoZ0l2o
+[RAINBOW]: https://github.com/IbrahimTanyalcin/lexicon-rainbow
+[RAINBOW_G1]: http://bl.ocks.org/ibrahimtanyalcin/37c3e06f97cda2881acbfcbb4d77e3ab
+[RAINBOW_G2]: http://bl.ocks.org/ibrahimtanyalcin/6e2e775cb954ecf89e6b379b5fa4c510
+[RAINBOW_G3]: http://bl.ocks.org/ibrahimtanyalcin/3ec054bc6dc485c46631c5ef1d28dbe9
+[RAINBOW_G4]: http://bl.ocks.org/ibrahimtanyalcin/2e478e178470c385656a90d3a4629220
+[RAINBOW_G5]: http://bl.ocks.org/ibrahimtanyalcin/f0bf54f88c6859c985ee98bc5e56ae6f
+[RAINBOW_G6]: https://bl.ocks.org/ibrahimtanyalcin/f2067bef081d84b85e3fb077f3272a90
