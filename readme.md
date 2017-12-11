@@ -1,19 +1,17 @@
-# Lexicon
+﻿# Lexicon
 <a href="https://www.patreon.com/ibrahimTanyalcin" title="Patreon donate"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate" /></a>
 ----
 <img alt = "LeXiCoN" src="./lexiconLogo.png" style="margin:auto;width:35%"></img>
 <br></br>
 >_**Breya:** Why are all these metal... things... ignoring us?_  
 >_**'The Voice':** Every age it seems, is tainted by the greed of men..._  
-
-<br></br>
  
 ## What is it? 
-
+----
 LEXICON is a collection of high level javascript libraries to create interactive and synchronizable graphs and dashboards. I am updating these pages slowly.
 
 ## The Story
-
+----
 >About a year ago I started working on the [Mutaframe][MUTAFRAME] project where we developed a data-visualization platform for all variants of the Human Genome:
 - more then 30 000 proteins
 - approximately 8000 points mutations for each protein
@@ -58,18 +56,37 @@ LEXICON is a collection of high level javascript libraries to create interactive
 
 ![Compare](./img/compare.gif)
 - lexicon-compare(; [🔍](./dev/lexiconCompare_dev.js)) :: A 3D perspective plot that compares 2 lexicon instances.
+Beware that this is not a 3D renderer. If you are looking for one in pure SVG, I have written one 2.5 years ago for [this](http://i-pv.org/) project and in [this](https://www.biorxiv.org/content/early/2017/06/09/148122.article-metrics) whitepaper. 
 
+## What are the advantages?
+----
+- Lexicon libraries are old school. Drop the script tag and you are good to go. Some of the libraries like [lexicon-rainbow](https://github.com/IbrahimTanyalcin/lexicon-rainbow/blob/master/dev/lexiconRainbow.d3v4.dev.js) are wrapped inside UMD.
+If you are also looking for an old school module manager, try [taskq](https://github.com/IbrahimTanyalcin/taskq) and help me make it better :)
+- You can synchronize some of the modules with each other allowing you to build complex applications.
+- Dependencies ? D3 and good old vanilla 'Rex' ES5. What else ? NONE.
+- Instances have their methods privately. I rarely use the prototype. JS engines are changing fast. At the time I started lexicon, access to private methods were faster. So as a result:
+    - current libraries are not the most memory efficient but they should be fast.
+	- I might rewrite a more prototype reliant version depending on the JS engines (chrome especially)
 
-## Coming Soon...
-<br></br>  
+## Usage
+----
+For usage, refer to the individual repository for the module you liked (if exists at the moment). Or take a look at the gists if possible. 
+
+## Issues
+----
+**lexicon-distribute**
+- When you mouse over single elements the label will trigger mouseout. I might use *node.contains* or *event.relatedTarget* check to ignore mouse out. I will fix that in the next patch.
+- ie 9 does not show the Joystic to reset, at least that's what some people told me. I might reconsider moving it to the right all together.
+- There are some performance issues when the node count is > 20000. I have some ideas at hand. Expect some nifty updates.
+
+**lexicon-seq**
+- I realized I have re-bound the data within the render function to the selection rather than storing the selection it self (eventhough is D3 v3 and selections silently update after *enter* unlike v4).
+I cannot quite recall why I did that. Rule #1: 'Do no harm'. So I will modify those parts once I'm sure it's not gonna break anything.
 
 ## Lisence
 ----
-
 Lisenced under [*GPL*](./LISENCE.md) for Academic or Non-profit use only. It is dual licensed for commercial applications.
 Certain components have registered IP property rights, contact me if you have questions.
-
-  
  
 ## Acknowledgement
 ----
@@ -84,8 +101,19 @@ Certain components have registered IP property rights, contact me if you have qu
   * [<img src="./img/innoviris.png" width="100" height="20" vspace="10" hspace="10" align="middle"/>](http://www.innoviris.be/en?set_language=en) for funding the [Mutaframe][MUTAFRAME] project.
 
 ## Support
-I work on several small to medium sized projects. Development in one can also lead to development of the others. So if you would like to show your
-support for this project you can contribute to my [PATREON](https://www.patreon.com/ibrahimTanyalcin) page.
+----
+Just a small reminder:
+- I work under the Academic umbrella, it's not always the easiest to promote the work when I have to do several other things.
+- I am not backed up by some 'firm' or some big whale 'name'. 
+- Therefore I don't have xk followers on Twitter.
+- Consequently not a lot of people can hear about the project, nor support it.
+- I don't like bandwagon, and I suspect bandwagon has similar sentiments.
+- I believe data visualization should be much more than just copying/pasting code and making small modifications.
+- I see people extending already existing components and adding glue around and then promote it as a framework---> I think we should go back to basics, an optimally low level and try get the best out of existing SVG spec etc.
+- Above is a time consuming process.
+So if you would like to show your support for this project you can contribute to my general [PATREON](https://www.patreon.com/ibrahimTanyalcin) page.
+You cannot? It's ok. Do you find it useful? Then please consider starring this repository -> motivation does not hurt.
+Thank You!
 
 <br>
 
