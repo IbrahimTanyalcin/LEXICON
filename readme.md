@@ -71,7 +71,7 @@ If you are also looking for an old school module manager, try [taskq](https://gi
 - You can synchronize some of the modules with each other allowing you to build complex applications.
 - Dependencies ? D3 and good old vanilla 'Rex' ES5. What else ? NONE.
 - Instances have their methods privately. I rarely use the prototype. JS engines are changing fast. At the time I started lexicon, access to private methods were faster. So as a result:
-    - current libraries are not the most memory efficient but they should be fast.(And it is *very very very* unlikely that the bottle neck will be the extra few bytes from methods of multiple instances. Probably it will be your beloved DOM nodes, as always.)
+    - current libraries are not the most memory efficient but they should be fast. (And it is *very very very* unlikely that the bottle neck will be the extra few bytes from methods of multiple instances. Probably it will be your beloved DOM nodes, as always.)
 	- I might rewrite a more prototype reliant version depending on the JS engines (chrome especially)
 
 ## Usage
