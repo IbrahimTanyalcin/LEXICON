@@ -71,7 +71,7 @@ If you are also looking for an old school module manager, try [taskq](https://gi
 - You can synchronize some of the modules with each other allowing you to build complex applications.
 - Dependencies ? D3 and good old vanilla 'Rex' ES5. What else ? NONE.
 - Instances have their methods privately. I rarely use the prototype. JS engines are changing fast. At the time I started lexicon, access to private methods were faster. So as a result:
-    - current libraries are not the most memory efficient but they should be fast.
+    - current libraries are not the most memory efficient but they should be fast.(And it is *very very very* unlikely that the bottle neck will be the extra few bytes from methods of multiple instances. Probably it will be your beloved DOM nodes, as always.)
 	- I might rewrite a more prototype reliant version depending on the JS engines (chrome especially)
 
 ## Usage
@@ -86,12 +86,12 @@ For usage, refer to the individual repository for the module you liked (if exist
 - There are some performance issues when the node count is > 20000. I have some ideas at hand. Expect some nifty updates.
 
 **lexicon-seq**
-- I realized I have re-bound the data within the render function to the selection rather than storing the selection it self (eventhough is D3 v3 and selections silently update after *enter* unlike v4).
+- I realized I have re-bound the data within the render function to the selection rather than storing the selection it self (eventhough the D3 version is v3 and selections silently update after *enter* unlike v4).
 I cannot quite recall why I did that. Rule #1: 'Do no harm'. So I will modify those parts once I'm sure it's not gonna break anything.
 
 ## Lisence
 
-Lisenced under [*GPL*](./LISENCE.md) for Academic or Non-profit use only. It is dual licensed for commercial applications.
+Lisenced under [**GPL**](./LISENCE.md) for Academic or Non-profit use only. It is dual licensed for commercial applications.
 Certain components have registered IP property rights, contact me if you have questions.
  
 ## Acknowledgement
@@ -120,7 +120,7 @@ Just a small reminder:
 
 So if you would like to show your support for this project you can contribute to my general **[PATREON](https://www.patreon.com/ibrahimTanyalcin)** page.
 
-You cannot? It's ok. Do you find it useful? Then please consider starring this repository -> motivation does not hurt.
+You cannot? It's ok. Do you find it useful? Then please consider starring this repository -> **motivation does not hurt**.
 
 Thank You!
 
