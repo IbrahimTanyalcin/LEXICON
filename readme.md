@@ -11,18 +11,24 @@
 LEXICON is a collection of high level javascript libraries to create interactive and synchronizable graphs and dashboards. I am updating these pages slowly.
 
 ## The Story
-----
+
 >About a year ago I started working on the [Mutaframe][MUTAFRAME] project where we developed a data-visualization platform for all variants of the Human Genome:
 - more then 30 000 proteins
 - approximately 8000 points mutations for each protein
+
+
 >We tried concepts that has not been tried in bioinformatics such as:
 - dedicated visualizations for submitting mutations for medical doctors & researchers
 - displaying all variants at once from a protein and looking at AUC
 - JS visualization components that can be synchronized with each other (I am not talking about a chart update, neither plain transform of one g group/svg with some gesture.)
+
+
 >To be able to do these, I needed components that can exactly do what I want. So I wrote a whole library of components from scratch using vanilla JS and D3:
 - If you want to have an idea of whats going on take a look at my recent talk at [ECCB2017][ECCB2017]
 - If you want to see what it can do, have a look at the [mutaframe][mutaframe] website.  
 - If you want to follow updates you can do it from [here][myTwitter] and [here][mutaframeTwitter].  
+
+
 >There are currently 8 libraries (components or whatever you want to call them). Each has or will have their own repository & Gists:
 
 ![Rainbow](./img/rainbow.gif)
@@ -59,7 +65,7 @@ LEXICON is a collection of high level javascript libraries to create interactive
 Beware that this is not a 3D renderer. If you are looking for one in pure SVG, I have written one 2.5 years ago for [this](http://i-pv.org/) project and in [this](https://www.biorxiv.org/content/early/2017/06/09/148122.article-metrics) whitepaper. 
 
 ## What are the advantages?
-----
+
 - Lexicon libraries are old school. Drop the script tag and you are good to go. Some of the libraries like [lexicon-rainbow](https://github.com/IbrahimTanyalcin/lexicon-rainbow/blob/master/dev/lexiconRainbow.d3v4.dev.js) are wrapped inside UMD.
 If you are also looking for an old school module manager, try [taskq](https://github.com/IbrahimTanyalcin/taskq) and help me make it better :)
 - You can synchronize some of the modules with each other allowing you to build complex applications.
@@ -69,11 +75,11 @@ If you are also looking for an old school module manager, try [taskq](https://gi
 	- I might rewrite a more prototype reliant version depending on the JS engines (chrome especially)
 
 ## Usage
-----
+
 For usage, refer to the individual repository for the module you liked (if exists at the moment). Or take a look at the gists if possible. 
 
 ## Issues
-----
+
 **lexicon-distribute**
 - When you mouse over single elements the label will trigger mouseout. I might use *node.contains* or *event.relatedTarget* check to ignore mouse out. I will fix that in the next patch.
 - ie 9 does not show the Joystic to reset, at least that's what some people told me. I might reconsider moving it to the right all together.
@@ -84,12 +90,12 @@ For usage, refer to the individual repository for the module you liked (if exist
 I cannot quite recall why I did that. Rule #1: 'Do no harm'. So I will modify those parts once I'm sure it's not gonna break anything.
 
 ## Lisence
-----
+
 Lisenced under [*GPL*](./LISENCE.md) for Academic or Non-profit use only. It is dual licensed for commercial applications.
 Certain components have registered IP property rights, contact me if you have questions.
  
 ## Acknowledgement
-----
+
 * Projects
   * The Mutaframe ([<img src="./img/mutaframeLogo.png" width="50" height="50" vspace="10" hspace="10" align="middle"/>][MUTAFRAME]) project, started in 2016 aims to be a visualization platform for mutations in human proteome (single nucleotide variants on coding regions of the human genome)
   that is guided by machine learning. What was unique about the project is that, it's not just about visualization of any data, it is related to healthcare. Several tools that is developed during this project (including this one) can also be used for generic purpose.
@@ -101,7 +107,7 @@ Certain components have registered IP property rights, contact me if you have qu
   * [<img src="./img/innoviris.png" width="100" height="20" vspace="10" hspace="10" align="middle"/>](http://www.innoviris.be/en?set_language=en) for funding the [Mutaframe][MUTAFRAME] project.
 
 ## Support
-----
+
 Just a small reminder:
 - I work under the Academic umbrella, it's not always the easiest to promote the work when I have to do several other things.
 - I am not backed up by some 'firm' or some big whale 'name'. 
@@ -109,14 +115,16 @@ Just a small reminder:
 - Consequently not a lot of people can hear about the project, nor support it.
 - I don't like bandwagon, and I suspect bandwagon has similar sentiments.
 - I believe data visualization should be much more than just copying/pasting code and making small modifications.
-- I see people extending already existing components and adding glue around and then promote it as a framework---> I think we should go back to basics, an optimally low level and try get the best out of existing SVG spec etc.
+- I see people extending already existing components and adding glue code around and then promote it as a framework---> I think we should go back to basics, an optimally low level and try get the best out of existing SVG spec etc.
 - Above is a time consuming process.
-So if you would like to show your support for this project you can contribute to my general [PATREON](https://www.patreon.com/ibrahimTanyalcin) page.
+
+So if you would like to show your support for this project you can contribute to my general **[PATREON](https://www.patreon.com/ibrahimTanyalcin)** page.
+
 You cannot? It's ok. Do you find it useful? Then please consider starring this repository -> motivation does not hurt.
+
 Thank You!
 
-<br>
-
+Ibrahim Tanyalcin PhD
 
 [MINIMAL]: http://bl.ocks.org/ibrahimtanyalcin/6e2e775cb954ecf89e6b379b5fa4c510
 [AMINOACIDS]: http://bl.ocks.org/ibrahimtanyalcin/3ec054bc6dc485c46631c5ef1d28dbe9
