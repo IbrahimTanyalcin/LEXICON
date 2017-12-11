@@ -7,6 +7,7 @@
 >_**'The Voice':** Every age it seems, is tainted by the greed of men..._  
  
 ## What is it? 
+
 ----
 LEXICON is a collection of high level javascript libraries to create interactive and synchronizable graphs and dashboards. I am updating these pages slowly.
 
