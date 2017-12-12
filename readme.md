@@ -10,6 +10,15 @@
 
 LEXICON is a collection of high level javascript libraries to create interactive and synchronizable graphs and dashboards. I am updating these pages slowly.
 
+## White papers, white papers..Blood & Tears
+
+### Mutaframe: About a year old project. It is a data visualization platform for human mutations. We used about half of the visualization modules here for this project:
+- https://academic.oup.com/nar/article/45/W1/W201/3819233
+### I-PV: 4-5 year old project. Circular visualization that combines vanilla Javascript, D3 and Circos. Perhaps it is one of the largest project built with D3. Not the best coding quality but unique for sure. You think I am wrong? Submit me a challenger and I will post it here. Seriously.
+- https://www.ncbi.nlm.nih.gov/pubmed/26454277
+### Indoril: 2 year old project. One of the first svg based 3D rendering modules built on top of I-PV. You think other tools does this already (filter variants && map them && renormalize scores && format based on amino acid && brush through domains && render)? Submit me a link with a similar project and its outcome and I will post it RIGHT here.
+- https://www.biorxiv.org/content/early/2017/06/09/148122
+
 ## The Story
 
 >About a year ago I started working on the [Mutaframe][MUTAFRAME] project where we developed a data-visualization platform for all variants of the Human Genome:
