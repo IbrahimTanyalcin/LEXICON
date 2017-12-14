@@ -43,40 +43,40 @@ Below is a list of publications that contributed to this project.
 >There are currently 8 libraries (components or whatever you want to call them). Each has or will have their own repository & Gists:
 
 ![Rainbow](./img/rainbow.gif)
-- lexicon-rainbow ([Github][RAINBOW]; [🔍](https://github.com/IbrahimTanyalcin/lexicon-rainbow)) :: Parallel Coordinates/Sankey with business logic embedded in JSON only.
-  - [Gist1][RAINBOW_G1]
-  - [Gist2][RAINBOW_G2]
-  - [Gist3][RAINBOW_G3]
-  - [Gist4][RAINBOW_G4]
-  - [Gist5][RAINBOW_G5]
-  - [Gist6][RAINBOW_G6]
+- **lexicon-rainbow ([Github][RAINBOW]; [🔍](https://github.com/IbrahimTanyalcin/lexicon-rainbow))** :: Parallel Coordinates/Sankey with business logic embedded in JSON only.
+  - [**Gist1**][RAINBOW_G1]
+  - [**Gist2**][RAINBOW_G2]
+  - [**Gist3**][RAINBOW_G3]
+  - [**Gist4**][RAINBOW_G4]
+  - [**Gist5**][RAINBOW_G5]
+  - [**Gist6**][RAINBOW_G6]
   
 ![Distribute](./img/distribute.gif)
-- lexicon-distribute (; [🔍](./dev/lexiconDistribute.js)) :: Distribution graph that allows you to change bin size, see individual points and AUC. Can handle up to 50 000 points.
-  - [Gist1][DISTRIBUTE_G1]
-  - [Gist2][DISTRIBUTE_G2]
+- **lexicon-distribute (; [🔍](./dev/lexiconDistribute.js))** :: Distribution graph that allows you to change bin size, see individual points and AUC. Can handle up to 50 000 points.
+  - [**Gist1**][DISTRIBUTE_G1]
+  - [**Gist2**][DISTRIBUTE_G2]
   
 ![Dash](./img/dash.gif)
-- lexicon-dash(; [🔍](./dev/lexiconDash.js)) :: Dash board that can transfrom between 2 layouts. Comes with nify and automatic label placement.
-  - [Gist1][DASH_G1]
+- **lexicon-dash(; [🔍](./dev/lexiconDash.js))** :: Dash board that can transfrom between 2 layouts. Comes with nify and automatic label placement.
+  - [**Gist1**][DASH_G1]
   
 ![Seq](./img/seq.gif)
-- lexicon-seq(; [🔍](./dev/lexiconSeq_dev_test.js)) :: A Visualization module for string of sequences.
-  - [Gist1][SEQ_G1]
-  - [Gist2][SEQ_G2]
-  - [Gist3][SEQ_G3]
-  - [Gist4][SEQ_G4]
+- **lexicon-seq(; [🔍](./dev/lexiconSeq_dev_test.js))** :: A Visualization module for string of sequences.
+  - [**Gist1**][SEQ_G1]
+  - [**Gist2**][SEQ_G2]
+  - [**Gist3**][SEQ_G3]
+  - [**Gist4**][SEQ_G4]
 
 ![Plot](./img/plot.gif)
-- lexicon-plot(; [🔍](./dev/lexiconPlot_dev_test.js)) :: Similar to lexicon seq but instead it plots a line graph with bin options and other transforms
+- **lexicon-plot(; [🔍](./dev/lexiconPlot_dev_test.js))** :: Similar to lexicon seq but instead it plots a line graph with bin options and other transforms
 
-- lexicon-ss(;[🔍](./dev/lexiconSS_dev_test.js)) :: A dedicated lexicon-plot version for protein secondary structure
+- **lexicon-ss(;[🔍](./dev/lexiconSS_dev_test.js))** :: A dedicated lexicon-plot version for protein secondary structure
 
 ![Simplex](./img/simplex.gif)
-- lexicon-simplex(; [🔍](./dev/lexiconSimplex.js)) :: Strippted down version of a ordinal bar/scatter plot with adjustable ranges.
+- **lexicon-simplex(; [🔍](./dev/lexiconSimplex.js))** :: Strippted down version of a ordinal bar/scatter plot with adjustable ranges.
 
 ![Compare](./img/compare.gif)
-- lexicon-compare(; [🔍](./dev/lexiconCompare_dev.js)) :: A 3D perspective plot that compares 2 lexicon instances.
+- **lexicon-compare(; [🔍](./dev/lexiconCompare_dev.js))** :: A 3D perspective plot that compares 2 lexicon instances.
 Beware that this is not a 3D renderer. If you are looking for one in pure SVG, I have written one 2.5 years ago for [this](http://i-pv.org/) project and in [this](https://www.biorxiv.org/content/early/2017/06/09/148122.article-metrics) whitepaper. 
 
 ## What are the advantages?
