@@ -62,11 +62,15 @@ Below is a list of publications that contributed to this project.
   
 ![Seq](./img/seq.gif)
 - lexicon-seq(; [🔍](./dev/lexiconSeq_dev_test.js)) :: A Visualization module for string of sequences.
+  - [Gist1][SEQ_G1]
+  - [Gist2][SEQ_G2]
+  - [Gist3][SEQ_G3]
+  - [Gist4][SEQ_G4]
 
 ![Plot](./img/plot.gif)
 - lexicon-plot(; [🔍](./dev/lexiconPlot_dev_test.js)) :: Similar to lexicon seq but instead it plots a line graph with bin options and other transforms
 
-- lexicon-ss(;[🔍][./dev/lexiconSS_dev_test.js]) :: A dedicated lexicon-plot version for protein secondary structure
+- lexicon-ss(;[🔍](./dev/lexiconSS_dev_test.js)) :: A dedicated lexicon-plot version for protein secondary structure
 
 ![Simplex](./img/simplex.gif)
 - lexicon-simplex(; [🔍](./dev/lexiconSimplex.js)) :: Strippted down version of a ordinal bar/scatter plot with adjustable ranges.
@@ -159,3 +163,7 @@ Ibrahim Tanyalcin PhD
 [DISTRIBUTE_G1]: https://bl.ocks.org/ibrahimtanyalcin/c2213de41fbc968b210ad6a8aae77a0f
 [DISTRIBUTE_G2]: https://bl.ocks.org/ibrahimtanyalcin/e0046de6e51cb126d544b92e26e0cf62
 [DASH_G1]: https://bl.ocks.org/ibrahimtanyalcin/808237e5729ba4720f437fda4eab8085
+[SEQ_G1]: https://bl.ocks.org/ibrahimtanyalcin/906c5dc15ee57e0dc1107dc746f1e13d
+[SEQ_G2]: https://bl.ocks.org/ibrahimtanyalcin/b93fb49c0fc76237d64fee2b50b0e706
+[SEQ_G3]: https://bl.ocks.org/ibrahimtanyalcin/a56be37c815e22dfcd3f2c4f394b506d
+[SEQ_G4]: https://bl.ocks.org/ibrahimtanyalcin/24654191b656289f19c6644322658e5d
