@@ -1,0 +1,148 @@
+<!--Copyright Ibrahim Tanyalcin 2013-2017-->
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="../../beta/lexiconDistribute.js"></script>
+<style type ="text/css">
+	body {
+		position:relative;
+	}
+	body > div {
+		text-align:center;
+	}
+	svg text {
+		font-family: Helvetica, Arial, "sans-serif";
+	}
+	.global_lexMainAxes .tick line,
+	.global_lexMainAxes path,
+	.global_lexMainAxes .tick text,
+	.global_lexMainAxes text{
+		font: 10px sans-serif;
+		fill: Black;
+		stroke: Black;
+		opacity:0.6;
+		shape-rendering: crispEdges;
+		stroke-width: 1px;
+	}
+	#containerDiv svg {
+		display:inline-block !important;
+	}
+	#containerDiv:after {
+		content:"";
+		display:block;
+		clear:both;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<div id="containerDiv" style="margin:auto;position:relative">
+		</div>
+	</div>
+<script type="text/javascript">
+!function(){
+	////////////////////////////////////////////////////////////////////
+	/////////////////////////A MINIMAL DATASET//////////////////////////
+	////////////////////////////////////////////////////////////////////
+	
+	//set same means, let's say 0 with one 10x the SD of the other
+	var generator = d3.random.normal(0,Math.random()*100),
+		generator2 = d3.random.logNormal(0,0.35),
+		samples = Array.apply(null,Array(5000)).map(function(d,i){return generator()}),
+		samples2 = Array.apply(null,Array(5000)).map(function(d,i){return generator2()}),
+		labels = samples.map(function(d,i){return "Point_"+i}),
+		labels2 = samples2.map(function(d,i){return "Point_"+i}),
+		randomIndex = Math.round(Math.random()*5000),
+		randomIndex2 = Math.round(Math.random()*5000);
+	
+	////////////////////////////////////////////////////////////////////
+	/////////////////////////CREATE AN INSTANCE/////////////////////////
+	////////////////////////////////////////////////////////////////////
+	// An instance is automatically exported, we create the second one from the first ones constructor
+	[lexiconDistribute,new lexiconDistribute.constructor].forEach(function(d,i,a){
+		d
+		// maximum amount of points the brush tool can extent
+		.zoom(10000)
+		// a css selector for the container
+		.container("#containerDiv")
+		/* For Buttons: 
+		text fill, text stroke, 
+		shape fill, shape stroke , 
+		m.over text fill, m.over text stroke , 
+		m.over shape fill*/
+		.colorControllers(["Black","Black","AntiqueWhite","Black","Green","Green","Black"])
+		// width in userSpaceOnUse
+		.w(600)
+		// height in userSpaceOnUse
+		.h(600)
+		// width in pixels
+		.sW("400px")
+		// height in pixels
+		.sH("400px")
+		// css position
+		.position("relative")
+		// css top
+		.sTop("100px")
+		// css left
+		.sLeft("0%")
+		// css margin
+		.sMargin("0px auto 0px auto")
+		// give an id string 
+		.lexID("lexicon_Applet_"+i)
+		// color of the applet background
+		.color("Black")
+		// opacity of the applet background
+		.opacity(0.1)
+		// offset of the brush tool --> not necessary in this case
+		.offSet(0)
+		// set global font size multiplier
+		.fontConstant(1.25)
+		/* Accepts a factory function that
+		should return values array.
+		The factory function takes 2 arguments,
+		previously bound _data_ which
+		is done by calling .seq method. 
+		Here we did not bind data, 
+		because we are not dealing with
+		sequences, so we return dataset unchanged.
+		The samples argument is the dataset passed
+		to the factory function. The last optional
+		argument is the marker index, which marks 
+		a data point. If undefined, you won't 
+		have the marker button*/
+		.values(function factory(_data_,dataset){
+			return dataset;
+			},
+			(!i ? samples : samples2),
+			(!i ? randomIndex : randomIndex2)
+		)
+		/* Accepts a factory function that takes
+		bound _data_ (we don't have in this case),
+		previously created values (above) and 
+		a labels array and returns a new array.
+		In this case we return the labels as they are*/
+		.labels(function(data,values,labels){
+			return labels
+			},
+			!i ? labels : labels2
+		)
+		/* the text at the top, which you can also
+		bind a function using .submit method. By
+		default an empty function is loaded*/
+		.submitText("Distribution "+(i+1))
+		/* label x-axis and y-axis. Anything
+		that is not of type string is coerced to
+		'values' for x axis and 'frequency' for y axis*/
+		.labelAxes(true,true)
+		// set the internal variables
+		.append()
+		// render first scene and initialize
+		.render();
+		d.sync([!i ? a[1] : a[0]]);
+	})
+}()
+</script>
+</body>
+</html>
+<!--Copyright Ibrahim Tanyalcin 2013-2017-->
