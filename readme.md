@@ -55,6 +55,8 @@ Below is a list of publications that contributed to this project.
 - **lexicon-distribute (; [🔍](./dev/lexiconDistribute.js))** :: Distribution graph that allows you to change bin size, see individual points and AUC. Can handle up to 50 000 points.
   - [**Gist1**][DISTRIBUTE_G1]
   - [**Gist2**][DISTRIBUTE_G2]
+  - [**Gist3**][DISTRIBUTE_G3]
+  - [**Gist4**][DISTRIBUTE_G4]
   
 ![Dash](./img/dash.gif)
 - **lexicon-dash(; [🔍](./dev/lexiconDash.js))** :: Dash board that can transfrom between 2 layouts. Comes with nify and automatic label placement.
@@ -66,6 +68,7 @@ Below is a list of publications that contributed to this project.
   - [**Gist2**][SEQ_G2]
   - [**Gist3**][SEQ_G3]
   - [**Gist4**][SEQ_G4]
+  - [**Gist5**][SEQ_G5]
 
 ![Plot](./img/plot.gif)
 - **lexicon-plot(; [🔍](./dev/lexiconPlot_dev_test.js))** :: Similar to lexicon seq but instead it plots a line graph with bin options and other transforms
@@ -162,8 +165,14 @@ Ibrahim Tanyalcin PhD
 [RAINBOW_G6]: https://bl.ocks.org/ibrahimtanyalcin/f2067bef081d84b85e3fb077f3272a90
 [DISTRIBUTE_G1]: https://bl.ocks.org/ibrahimtanyalcin/c2213de41fbc968b210ad6a8aae77a0f
 [DISTRIBUTE_G2]: https://bl.ocks.org/ibrahimtanyalcin/e0046de6e51cb126d544b92e26e0cf62
+[DISTRIBUTE_G3]: 
+https://bl.ocks.org/ibrahimtanyalcin/9e0d8db9f5ae85512a309d70ee83885b
+[DISTRIBUTE_G4]:
+https://bl.ocks.org/ibrahimtanyalcin/4b99a23b09bf18123c0a1e440085af7d
 [DASH_G1]: https://bl.ocks.org/ibrahimtanyalcin/808237e5729ba4720f437fda4eab8085
 [SEQ_G1]: https://bl.ocks.org/ibrahimtanyalcin/906c5dc15ee57e0dc1107dc746f1e13d
 [SEQ_G2]: https://bl.ocks.org/ibrahimtanyalcin/b93fb49c0fc76237d64fee2b50b0e706
 [SEQ_G3]: https://bl.ocks.org/ibrahimtanyalcin/a56be37c815e22dfcd3f2c4f394b506d
 [SEQ_G4]: https://bl.ocks.org/ibrahimtanyalcin/24654191b656289f19c6644322658e5d
+[SEQ_G5]:
+https://bl.ocks.org/ibrahimtanyalcin/656582d0a7c9d01bad0cd153466e5aee
