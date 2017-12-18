@@ -6,6 +6,20 @@
 >_**Breya:** Why are all these metal... things... ignoring us?_  
 >_**'The Voice':** Every age it seems, is tainted by the greed of men..._  
  
+# Navigation
+- ## [What is it](#what-is-it)
+- ## [White papers, white papers..Blood & Tears](#white-papers-white-papersblood--tears)
+- ## [The Story](#the-story)
+- ## [What are the advantages?](#what-are-the-advantages)
+- ## [Usage](#usage)
+- ## [Videos](#videos)
+- ## [Individual Repos](#individual-repos)
+- ## [Dependencies](#dependencies)
+- ## [Issues](#issues)
+- ## [Lisence](#lisence)
+- ## [Acknowledgement](#acknowledgement)
+- ## [Support](#support)
+
 ## What is it? 
 
 LEXICON is a collection of high level javascript libraries to create interactive and synchronizable graphs and dashboards. I am updating these pages slowly.
@@ -96,9 +110,31 @@ If you are also looking for an old school module manager, try [taskq](https://gi
 
 For usage, refer to the individual repository for the module you liked (if exists at the moment). Or take a look at the gists if possible. 
 
+## Videos
+
+I ocasionally upload [**videos**](https://www.youtube.com/channel/UCmtQOhFPZ7FH_jVwtv4-GFw/videos?) to illustrate use cases. Those who are coming from white paper references, below is a link that shows how you can try synchronible lexicon-modules (sorry for the voice, there was a problem with the microphone ☹ ):
+
+- https://www.youtube.com/watch?v=8leI7J4Y-zI&feature=youtu.be
+
+## Individual Repos
+
+Below are the links to the individual repos:
+- [lexicon-rainbow](https://github.com/IbrahimTanyalcin/lexicon-rainbow)
+
+If you cannot find the module above, then look inside the [**dev**](./dev) folder in this repository. If you also happen to find a version inside the [**dev**](./beta) folder, I strongly suggest you use that.
+
+## Dependencies
+
+- Lexicon is written in Javascript (ES5) and D3. 
+- Unless the version of d3 is explicitly specified in the name of the module ([**example**](https://github.com/IbrahimTanyalcin/lexicon-rainbow/tree/master/dev)) assume that it is the latest release of D3v3 (3.5.17).
+
 ## Issues
 
+### 18/12/2017
+<hr></hr>
+
 **lexicon-distribute**
+- For synchronible plots, I suggest you use the [**beta**](./beta) version
 - When you mouse over single elements the label will trigger mouseout. I might use *node.contains* or *event.relatedTarget* check to ignore mouse out. I will fix that in the next patch.
 - ie 9 does not show the Joystic to reset, at least that's what some people told me. I might reconsider moving it to the right all together.
 - There are some performance issues when the node count is > 20000. I have some ideas at hand. Expect some nifty updates.
