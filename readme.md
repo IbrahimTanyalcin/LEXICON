@@ -7,18 +7,18 @@
 >_**'The Voice':** Every age it seems, is tainted by the greed of men..._  
  
 # Navigation
-- ## [What is it](#what-is-it-1)
-- ## [White papers, white papers..Blood & Tears](#white-papers-white-papersblood--tears-1)
-- ## [The Story](#the-story-1)
-- ## [What are the advantages?](#what-are-the-advantages-1)
-- ## [Usage](#usage-1)
-- ## [Videos](#videos-1)
-- ## [Individual Repos](#individual-repos-1)
-- ## [Dependencies](#dependencies-1)
-- ## [Issues](#issues-1)
-- ## [Lisence](#lisence-1)
-- ## [Acknowledgement](#acknowledgement-1)
-- ## [Support](#support-1)
+- ## [What is it](#what-is-it-)
+- ## [White papers, white papers..Blood & Tears](#white-papers-white-papersblood--tears-)
+- ## [The Story](#the-story-)
+- ## [What are the advantages?](#what-are-the-advantages-)
+- ## [Usage](#usage-)
+- ## [Videos](#videos-)
+- ## [Individual Repos](#individual-repos-)
+- ## [Dependencies](#dependencies-)
+- ## [Issues](#issues-)
+- ## [Lisence](#lisence-)
+- ## [Acknowledgement](#acknowledgement-)
+- ## [Support](#support-)
 
 ## What is it? [⏎](#what-is-it)
 
