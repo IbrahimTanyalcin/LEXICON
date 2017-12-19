@@ -20,11 +20,11 @@
 - ## [Acknowledgement](#acknowledgement-1)
 - ## [Support](#support-1)
 
-## What is it? 
+## What is it? [⏎](#what-is-it)
 
 LEXICON is a collection of high level javascript libraries to create interactive and synchronizable graphs and dashboards. I am updating these pages slowly.
 
-## White papers, white papers..Blood & Tears
+## White papers, white papers..Blood & Tears [⏎](#white-papers-white-papersblood--tears)
 
 Below is a list of publications that contributed to this project.
 
@@ -35,7 +35,7 @@ Below is a list of publications that contributed to this project.
 #### Indoril: 2 year old project. One of the first svg based 3D rendering modules built on top of I-PV. You think other tools does this already (filter variants && map them && renormalize scores && format based on amino acid && brush through domains && render)? Submit me a link with a similar project and its outcome and I will post it RIGHT here.
 - https://www.biorxiv.org/content/early/2017/06/09/148122
 
-## The Story
+## The Story [⏎](#the-story)
 
 >About a year ago I started working on the [Mutaframe][MUTAFRAME] project where we developed a data-visualization platform for all variants of the Human Genome:
 - more then 30 000 proteins
@@ -96,7 +96,7 @@ Below is a list of publications that contributed to this project.
 - **lexicon-compare(; [🔍](./dev/lexiconCompare_dev.js))** :: A 3D perspective plot that compares 2 lexicon instances.
 Beware that this is not a 3D renderer. If you are looking for one in pure SVG, I have written one 2.5 years ago for [this](http://i-pv.org/) project and in [this](https://www.biorxiv.org/content/early/2017/06/09/148122.article-metrics) whitepaper. 
 
-## What are the advantages?
+## What are the advantages? [⏎](#what-are-the-advantages)
 
 - Lexicon libraries are old school. Drop the script tag and you are good to go. Some of the libraries like [lexicon-rainbow](https://github.com/IbrahimTanyalcin/lexicon-rainbow/blob/master/dev/lexiconRainbow.d3v4.dev.js) are wrapped inside UMD.
 If you are also looking for an old school module manager, try [taskq](https://github.com/IbrahimTanyalcin/taskq) and help me make it better :)
@@ -106,29 +106,29 @@ If you are also looking for an old school module manager, try [taskq](https://gi
     - current libraries are not the most memory efficient but they should be fast. (And it is *very very very* unlikely that the bottle neck will be the extra few bytes from methods of multiple instances. Probably it will be your beloved DOM nodes, as always.)
 	- I might rewrite a more prototype reliant version depending on the JS engines (chrome especially)
 
-## Usage
+## Usage [⏎](#usage)
 
-Add the correspoding script tag to your html file. For usage, refer to the individual repository for the module you liked (if exists at the moment). Or take a look at the gists if possible. 
+Add the correspoding script tag (look for the .js files either in the [**dev**](./dev) folder or [**beta**](./beta) folder) to your html file. For usage, refer to the individual repository for the module you liked (if exists at the moment). Or take a look at the gists if possible. 
 
-## Videos
+## Videos [⏎](#videos)
 
 I ocasionally upload [**videos**](https://www.youtube.com/channel/UCmtQOhFPZ7FH_jVwtv4-GFw/videos?) to illustrate use cases. Those who are coming from white paper references, below is a link that shows how you can try synchronible lexicon-modules (sorry for the voice, there was a problem with the microphone ☹ ):
 
 - https://www.youtube.com/watch?v=8leI7J4Y-zI&feature=youtu.be
 
-## Individual Repos
+## Individual Repos [⏎](#individual-repos)
 
 Below are the links to the individual repos:
 - [lexicon-rainbow](https://github.com/IbrahimTanyalcin/lexicon-rainbow)
 
-If you cannot find the module above, then look inside the [**dev**](./dev) folder in this repository. If you also happen to find a version inside the [**dev**](./beta) folder, I strongly suggest you use that.
+If you cannot find the module above, then look inside the [**dev**](./dev) folder in this repository. If you also happen to find a version inside the [**beta**](./beta) folder, I strongly suggest you use that.
 
-## Dependencies
+## Dependencies [⏎](#dependencies)
 
 - Lexicon is written in Javascript (ES5) and D3. 
 - Unless the version of d3 is explicitly specified in the name of the module ([**example**](https://github.com/IbrahimTanyalcin/lexicon-rainbow/tree/master/dev)) assume that it is the latest release of D3v3 (3.5.17).
 
-## Issues
+## Issues [⏎](#issues)
 
 ### 18/12/2017
 <hr></hr>
@@ -143,12 +143,12 @@ If you cannot find the module above, then look inside the [**dev**](./dev) folde
 - I realized I have re-bound the data within the render function to the selection rather than storing the selection it self (eventhough the D3 version is v3 and selections silently update after *enter* unlike v4).
 I cannot quite recall why I did that. Rule #1: 'Do no harm'. So I will modify those parts once I'm sure it's not gonna break anything.
 
-## Lisence
+## Lisence [⏎](#lisence)
 
 Lisenced under [**GPL**](./LISENCE.md) for Academic or Non-profit use only. It is dual licensed for commercial applications.
 Certain components have registered IP property rights, contact me if you have questions.
  
-## Acknowledgement
+## Acknowledgement [⏎](#acknowledgement)
 
 * Projects
   * The Mutaframe ([<img src="./img/mutaframeLogo.png" width="50" height="50" vspace="10" hspace="10" align="middle"/>][MUTAFRAME]) project, started in 2016 aims to be a visualization platform for mutations in human proteome (single nucleotide variants on coding regions of the human genome)
@@ -160,7 +160,7 @@ Certain components have registered IP property rights, contact me if you have qu
   of many small libraries including this one.
   * [<img src="./img/innoviris.png" width="100" height="20" vspace="10" hspace="10" align="middle"/>](http://www.innoviris.be/en?set_language=en) for funding the [Mutaframe][MUTAFRAME] project.
 
-## Support
+## Support [⏎](#support)
 
 Just a small reminder:
 - I work under the Academic umbrella, it's not always the easiest to promote the work when I have to do several other things.
