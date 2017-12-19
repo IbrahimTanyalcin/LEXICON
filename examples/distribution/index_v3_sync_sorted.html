@@ -121,9 +121,16 @@
 		bound _data_ (we don't have in this case),
 		previously created values (above) and 
 		a labels array and returns a new array.
-		In this case we return the labels as they are*/
+		In this case we return the labels as they are.
+		Why are we calling labels[samples.indexOf(d[0])]
+		instead of labels[samples.indexOf(d)] ? 
+		because when you call values, your values are 
+		mapped to [data,index]. For example, ["x","y"]
+		will be converted into [["x",0],["y",1]]. Consequently
+		when you call labels, a third field is added such as
+		["x",0,"someLabel"]*/
 		.labels(function(data,values,labels){
-			return !i ? values.map(function(d,i){labels[samples.indexOf(d)]}) : labels;
+			return !i ? values.map(function(d,i){return labels[samples.indexOf(d[0])]}) : labels;
 			},
 			!i ? labels : labels2
 		)
