@@ -1,6 +1,6 @@
 //Require and declare an instance
 var mCount = 0;
-var LexiconRainbow = require("../dev/LexiconRainbow.d3v3.dev.js");
+var LexiconRainbow = require("../dev/LexiconRainbow.d3v4.dev.js");
 var instance = new LexiconRainbow;
 //Run the test
 console.log("\nENUMERABLE PROPERTIES\n");
