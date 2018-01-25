@@ -1,6 +1,6 @@
 {
   "name": "d3-lexicon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of high performance data visualization libraries ",
   "main": "index.js",
   "directories": {
@@ -15,7 +15,7 @@
   },
   "keywords": [
     "dataviz",
-	"visualization",
+    "visualization",
     "parallel coordinates",
     "sankey",
     "svg",
