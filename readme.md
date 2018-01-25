@@ -116,7 +116,7 @@ Add the correspoding script tag (look for the .js files either in the [**dev**](
 
 I ocasionally upload [**videos**](https://www.youtube.com/channel/UCmtQOhFPZ7FH_jVwtv4-GFw/videos?) to illustrate use cases. Those who are coming from white paper references, below is a link that shows how you can try synchronible lexicon-modules (sorry for the voice, there was a problem with the microphone ☹ ):
 
-- https://www.youtube.com/watch?v=8leI7J4Y-zI&feature=youtu.be
+- [https://www.youtube.com/watch?v=8leI7J4Y-zI&feature=youtu.be](https://www.youtube.com/watch?v=8leI7J4Y-zI&feature=youtu.be)
 
 ## Individual Repos [⏎](#individual-repos)
 
