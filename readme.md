@@ -1,8 +1,10 @@
 ﻿# Lexicon
 <a href="https://www.patreon.com/ibrahimTanyalcin" title="Patreon donate"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate" /></a>
 ----
-<img alt = "LeXiCoN" src="./lexiconLogo.png" style="margin:auto;width:35%"></img>
-<br></br>
+<img alt = "LeXiCoN" src="./lexiconLogo.png" style="margin:auto;width:35%">
+
+<br>
+
 >_**Breya:** Why are all these metal... things... ignoring us?_  
 >_**'The Voice':** Every age it seems, is tainted by the greed of men..._  
  
@@ -188,9 +190,9 @@ Ibrahim Tanyalcin PhD
 [MUTAFRAME]: http://deogen2.mutaframe.com/
 [PROGRAMMATIC]: http://bl.ocks.org/ibrahimtanyalcin/f2067bef081d84b85e3fb077f3272a90
 [PROTEIN]:http://bl.ocks.org/ibrahimtanyalcin/37c3e06f97cda2881acbfcbb4d77e3ab
-[mutaframe]: <http://deogen2.mutaframe.com/>
-[myTwitter]: <https://twitter.com/ibrhmTanyalcin>
-[mutaframeTwitter]: <https://twitter.com/MutaFrame>
+[mutaframe]: http://deogen2.mutaframe.com/
+[myTwitter]: https://twitter.com/ibrhmTanyalcin
+[mutaframeTwitter]: https://twitter.com/MutaFrame
 [ECCB2017]: https://www.youtube.com/watch?v=9UGcxoZ0l2o
 [RAINBOW]: https://github.com/IbrahimTanyalcin/lexicon-rainbow
 [RAINBOW_G1]: http://bl.ocks.org/ibrahimtanyalcin/37c3e06f97cda2881acbfcbb4d77e3ab
@@ -201,14 +203,11 @@ Ibrahim Tanyalcin PhD
 [RAINBOW_G6]: https://bl.ocks.org/ibrahimtanyalcin/f2067bef081d84b85e3fb077f3272a90
 [DISTRIBUTE_G1]: https://bl.ocks.org/ibrahimtanyalcin/c2213de41fbc968b210ad6a8aae77a0f
 [DISTRIBUTE_G2]: https://bl.ocks.org/ibrahimtanyalcin/e0046de6e51cb126d544b92e26e0cf62
-[DISTRIBUTE_G3]: 
-https://bl.ocks.org/ibrahimtanyalcin/9e0d8db9f5ae85512a309d70ee83885b
-[DISTRIBUTE_G4]:
-https://bl.ocks.org/ibrahimtanyalcin/4b99a23b09bf18123c0a1e440085af7d
+[DISTRIBUTE_G3]: https://bl.ocks.org/ibrahimtanyalcin/9e0d8db9f5ae85512a309d70ee83885b
+[DISTRIBUTE_G4]: https://bl.ocks.org/ibrahimtanyalcin/4b99a23b09bf18123c0a1e440085af7d
 [DASH_G1]: https://bl.ocks.org/ibrahimtanyalcin/808237e5729ba4720f437fda4eab8085
 [SEQ_G1]: https://bl.ocks.org/ibrahimtanyalcin/906c5dc15ee57e0dc1107dc746f1e13d
 [SEQ_G2]: https://bl.ocks.org/ibrahimtanyalcin/b93fb49c0fc76237d64fee2b50b0e706
 [SEQ_G3]: https://bl.ocks.org/ibrahimtanyalcin/a56be37c815e22dfcd3f2c4f394b506d
 [SEQ_G4]: https://bl.ocks.org/ibrahimtanyalcin/24654191b656289f19c6644322658e5d
-[SEQ_G5]:
-https://bl.ocks.org/ibrahimtanyalcin/656582d0a7c9d01bad0cd153466e5aee
+[SEQ_G5]: https://bl.ocks.org/ibrahimtanyalcin/656582d0a7c9d01bad0cd153466e5aee
