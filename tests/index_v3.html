@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="../dev/lexiconRainbow.d3v3.dev.js"></script>
+<style type ="text/css">
+</style>
+</head>
+<body style="padding-top:1px;margin:auto;width:1000px;height:500px;">
+<div id="containerDiv" style="margin:auto;"></div>
+<script type="text/javascript">
+
+////////////////////////////////////////////////////////////////////
+/////////////////////////A MINIMAL DATASET//////////////////////////
+////////////////////////////////////////////////////////////////////
+
+var sample = {
+	"ordinal": [
+		{
+			"name": "A Minimal Set",
+			"categories": {
+				"A": 1,
+				"B": 2,
+				"C": 3
+			}
+		}
+	],
+	"linear": [
+		{
+			"domain": [-10,10],
+			"name": "A Minimal Set",
+			"categories": {
+				"A": {intervals:[-9,-4]},
+				"B": {intervals:[[-2,2]]},
+				"C": {intervals:8}
+			}
+		}
+	]
+};
+
+////////////////////////////////////////////////////////////////////
+/////////////////////////CREATE AN INSTANCE/////////////////////////
+////////////////////////////////////////////////////////////////////
+(new LexiconRainbow)
+.container("#containerDiv")
+.forceStyle()
+.w(600)
+.h(200)
+.sW("80%")
+.sH("270px")
+.position("relative")
+.sTop("0px")
+.sLeft("0px")
+.sMargin("5px auto 0px auto")
+.lexID("lexiconRainbow")
+.input(sample)
+.append(true)
+.render();
+
+</script>
+</body>
+</html>

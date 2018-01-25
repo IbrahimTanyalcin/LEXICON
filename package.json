@@ -1,0 +1,39 @@
+{
+  "name": "d3-lexicon",
+  "version": "1.0.0",
+  "description": "Collection of high performance data visualization libraries ",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "node tests/nodeTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrahimTanyalcin/LEXICON.git"
+  },
+  "keywords": [
+    "dataviz",
+	"visualization",
+    "parallel coordinates",
+    "sankey",
+    "svg",
+    "lexicon",
+    "interactive",
+    "mapping",
+    "d3",
+    "javascript",
+    "biojs",
+    "bionode"
+  ],
+  "dependencies": {
+    "d3": "^3.5.17"
+  },
+  "author": "Ibrahim Tanyalcin",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/IbrahimTanyalcin/LEXICON/issues"
+  },
+  "homepage": "http://lexicon.ibrahimtanyalcin.com/"
+}
